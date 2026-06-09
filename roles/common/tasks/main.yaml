@@ -12,7 +12,7 @@
 
 - name: change the fact
   set_fact:
-     os: "Debian"  #overriding the previous loaded varible
+    os: "Debian"  #overriding the previous loaded varible
 
 - name: common role msg-4
   debug:
