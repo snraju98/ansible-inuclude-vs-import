@@ -14,3 +14,7 @@
   debug:
     msg: "HI, I am from common role MSG-4"
 
+- name: call role-2
+  import_role:
+    name: role-3
+
