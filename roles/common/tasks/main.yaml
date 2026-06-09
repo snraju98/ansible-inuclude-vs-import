@@ -4,7 +4,7 @@
 
 - name: common role msg-2
   debug:
-    msg: "HI, I am from common role MSG-2"
+    msg: "HI, I am from common role MSG-2 {{ item }}"
 
 - name: common role msg-3
   debug:
